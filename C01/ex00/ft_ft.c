@@ -1,12 +1,12 @@
-
-#include <stdio.h>
+#include <unistd.h>
+//#include <stdio.h>
 
 void ft_ft(int *nbr)
 {
     *nbr = 42;
 }
 
-int main()
+/*int main()
 {
     int i = 33;
 
@@ -17,4 +17,4 @@ int main()
 
     printf("Después de la función: %d\n", i);
     return 0;
-}
+}*/
