@@ -12,8 +12,7 @@ int ft_strlen(char *str)
     return(i);
 }
  
-
-char *ft_strcpy(char *dest, char *src)
+char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
     int l_s = ft_strlen(&src[0]);
     int l_d = ft_strlen(&dest[0]);
@@ -50,7 +49,7 @@ char *ft_strcpy(char *dest, char *src)
     char sr[] = "abfdsgf";
     char ds[] = "cdefg";
     
-    ft_strcpy(&ds[0],&sr[0]);
+    ft_strncpy(&ds[0],&sr[0], 4]);
     printf("%s\n", ds);
     return(0);
 }*/
