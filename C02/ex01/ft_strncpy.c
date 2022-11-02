@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+
 
 int ft_strlen(char *str)
 {
@@ -54,3 +54,4 @@ char *ft_strcpy(char *dest, char *src)
     printf("%s\n", ds);
     return(0);
 }*/
+
